@@ -1,24 +1,24 @@
 -- phpMyAdmin SQL Dump
 -- version 5.1.0
--- https://www.phpmyadmin.net/
+-- httpswww.phpmyadmin.net
 --
--- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th5 21, 2022 lúc 04:45 AM
--- Phiên bản máy phục vụ: 10.4.19-MariaDB
--- Phiên bản PHP: 8.0.6
+-- Máy chủ 127.0.0.1
+-- Thời gian đã tạo Th5 21, 2022 lúc 0445 AM
+-- Phiên bản máy phục vụ 10.4.19-MariaDB
+-- Phiên bản PHP 8.0.6
 
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET SQL_MODE = NO_AUTO_VALUE_ON_ZERO;
 START TRANSACTION;
-SET time_zone = "+00:00";
+SET time_zone = +0000;
 
 
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
+!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT ;
+!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS ;
+!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION ;
+!40101 SET NAMES utf8mb4 ;
 
 --
--- Cơ sở dữ liệu: `web_ban_hang`
+-- Cơ sở dữ liệu `web_ban_hang`
 --
 
 -- --------------------------------------------------------
@@ -46,18 +46,18 @@ CREATE TABLE `admin_account` (
 --
 
 INSERT INTO `admin_account` (`id`, `user_name`, `pass_word`, `full_name`, `email`, `address`, `number_phone`, `level_admin`, `banned`, `create_date`, `cookie`) VALUES
-(1, 'admin', 'c4ca4238a0b923820dcc509a6f75849b', 'Trần Nhật Hoàng', 'hoang@gmail.com', 'Đà Nẵng', '0123456789', 1, 0, '2022-05-02 19:59:47', 'mD%OoST#roH%RZg5JYdahmJZSzY5mtEGbht@OAVPknBqWJn4N^gXkcElDn2e%Axz57yWe25ub#kW^Q3N1j9AsdRXXOTmdJ$iJ%MGnt^XlPatgF@ZG1Cy#xl7vTYeT$pcGn2%qv9adCwATpB8uMYThE;1;1'),
-(2, 'admin1', 'c4ca4238a0b923820dcc509a6f75849b', 'Trần Nhật Hoàng', 'hoang@gmail.com', 'Đà Nẵng', '0123456789', 1, 0, '2022-05-16 01:41:17', 'uoaw9g17LJMeqHog#PefsnXBt1aKI589Ix9VHDATIVC59JH$r2cfYzAVCo##CUlLXA72LHn8rttT8cxI5nWxT$JBwSRQszNd@TWSScRQajDV8YOkgjLwcjix&HKTsJmI58E6M19itg%&q1v^TGECVu;2;1'),
-(3, 'admin2', 'c4ca4238a0b923820dcc509a6f75849b', 'Trần Nhật Hoàng', 'hoang@gmail.com', 'Đà Nẵng', '2', 0, 0, '2022-05-17 11:09:26', '0'),
-(4, 'admin3', 'c4ca4238a0b923820dcc509a6f75849b', 'Trần Nhật Hoàng', 'hoang@gmail.com', 'Đà Nẵng', '3', 0, 0, '2022-05-17 11:09:43', '0'),
-(5, 'admin4', 'c4ca4238a0b923820dcc509a6f75849b', 'Trần Nhật Hoàng', 'hoang@gmail.com', 'Đà Nẵng', '3', 0, 0, '2022-05-17 11:09:52', '0'),
-(6, 'admin5', 'c4ca4238a0b923820dcc509a6f75849b', 'Trần Nhật Hoàng', 'hoang@gmail.com', 'Đà Nẵng', '3', 0, 0, '2022-05-17 11:09:58', '1i97RYmmHd&qeR6FEmjnk3PA27ULxPFZvI5keJo$H2IH4qD^rGBg8w5OsMXcaBwSw%bFH$$XYSU@dUYf3jngBj3aWTBk#$RQZOPoIMCzqVor$Uhvh2QzHka7K4K9&ljul^5R5TM4jkWxkg7Uhu6DKafHzV9SA6^f&hhWD2sz%pAPD&hxcYXfKolQ2Mprs4NzJRpZ2w1h'),
-(7, 'admin6', 'c4ca4238a0b923820dcc509a6f75849b', 'Trần Nhật Hoàng', 'hoang@gmail.com', 'Đà Nẵng', '3', 0, 0, '2022-05-17 11:10:06', '0'),
-(8, 'admin7', 'c4ca4238a0b923820dcc509a6f75849b', 'Trần Nhật Hoàng', 'hoang@gmail.com', '1', '1', 0, 0, '2022-05-17 11:10:38', '38AHbrMxU2%VHvXW%Le$oJPTzgOLQJDF%TFc&rvnMK$EZuCfT@quIKRqtVX4XzbBNMeo8Jt93ugg2YEGOWuDo6OKf^MFfwfPZ9wH55Tr^$@yTavu$ck34PUauy2^tYcvyZ3iS5OEvLfRE5mK$WM1e8;2;1'),
-(9, 'admin8', 'c4ca4238a0b923820dcc509a6f75849b', 'Trần Nhật Hoàng', 'hoang@gmail.com', '1', '1', 0, 0, '2022-05-17 11:10:42', '38AHbrMxU2%VHvXW%Le$oJPTzgOLQJDF%TFc&rvnMK$EZuCfT@quIKRqtVX4XzbBNMeo8Jt93ugg2YEGOWuDo6OKf^MFfwfPZ9wH55Tr^$@yTavu$ck34PUauy2^tYcvyZ3iS5OEvLfRE5mK$WM1e8;2;1'),
-(10, 'admin9', 'c4ca4238a0b923820dcc509a6f75849b', 'Trần Nhật Hoàng', 'hoang@gmail.com', '1', '1', 0, 0, '2022-05-17 11:10:45', '38AHbrMxU2%VHvXW%Le$oJPTzgOLQJDF%TFc&rvnMK$EZuCfT@quIKRqtVX4XzbBNMeo8Jt93ugg2YEGOWuDo6OKf^MFfwfPZ9wH55Tr^$@yTavu$ck34PUauy2^tYcvyZ3iS5OEvLfRE5mK$WM1e8;2;1'),
-(11, 'admin10', 'c4ca4238a0b923820dcc509a6f75849b', 'Trần Nhật Hoàng', 'hoang@gmail.com', '1', '1', 0, 0, '2022-05-17 11:10:48', '38AHbrMxU2%VHvXW%Le$oJPTzgOLQJDF%TFc&rvnMK$EZuCfT@quIKRqtVX4XzbBNMeo8Jt93ugg2YEGOWuDo6OKf^MFfwfPZ9wH55Tr^$@yTavu$ck34PUauy2^tYcvyZ3iS5OEvLfRE5mK$WM1e8;2;1'),
-(12, 'admin11', 'c4ca4238a0b923820dcc509a6f75849b', 'Trần Nhật Hoàng', 'hoang@gmail.com', '1', '1', 0, 0, '2022-05-17 11:10:53', '38AHbrMxU2%VHvXW%Le$oJPTzgOLQJDF%TFc&rvnMK$EZuCfT@quIKRqtVX4XzbBNMeo8Jt93ugg2YEGOWuDo6OKf^MFfwfPZ9wH55Tr^$@yTavu$ck34PUauy2^tYcvyZ3iS5OEvLfRE5mK$WM1e8;2;1');
+(1, 'admin', 'c4ca4238a0b923820dcc509a6f75849b', 'Trần Nhật Hoàng', 'hoang@gmail.com', 'Đà Nẵng', '0123456789', 1, 0, '2022-05-02 195947', 'mD%OoST#roH%RZg5JYdahmJZSzY5mtEGbht@OAVPknBqWJn4N^gXkcElDn2e%Axz57yWe25ub#kW^Q3N1j9AsdRXXOTmdJ$iJ%MGnt^XlPatgF@ZG1Cy#xl7vTYeT$pcGn2%qv9adCwATpB8uMYThE;1;1'),
+(2, 'admin1', 'c4ca4238a0b923820dcc509a6f75849b', 'Trần Nhật Hoàng', 'hoang@gmail.com', 'Đà Nẵng', '0123456789', 1, 0, '2022-05-16 014117', 'uoaw9g17LJMeqHog#PefsnXBt1aKI589Ix9VHDATIVC59JH$r2cfYzAVCo##CUlLXA72LHn8rttT8cxI5nWxT$JBwSRQszNd@TWSScRQajDV8YOkgjLwcjix&HKTsJmI58E6M19itg%&q1v^TGECVu;2;1'),
+(3, 'admin2', 'c4ca4238a0b923820dcc509a6f75849b', 'Trần Nhật Hoàng', 'hoang@gmail.com', 'Đà Nẵng', '2', 0, 0, '2022-05-17 110926', '0'),
+(4, 'admin3', 'c4ca4238a0b923820dcc509a6f75849b', 'Trần Nhật Hoàng', 'hoang@gmail.com', 'Đà Nẵng', '3', 0, 0, '2022-05-17 110943', '0'),
+(5, 'admin4', 'c4ca4238a0b923820dcc509a6f75849b', 'Trần Nhật Hoàng', 'hoang@gmail.com', 'Đà Nẵng', '3', 0, 0, '2022-05-17 110952', '0'),
+(6, 'admin5', 'c4ca4238a0b923820dcc509a6f75849b', 'Trần Nhật Hoàng', 'hoang@gmail.com', 'Đà Nẵng', '3', 0, 0, '2022-05-17 110958', '1i97RYmmHd&qeR6FEmjnk3PA27ULxPFZvI5keJo$H2IH4qD^rGBg8w5OsMXcaBwSw%bFH$$XYSU@dUYf3jngBj3aWTBk#$RQZOPoIMCzqVor$Uhvh2QzHka7K4K9&ljul^5R5TM4jkWxkg7Uhu6DKafHzV9SA6^f&hhWD2sz%pAPD&hxcYXfKolQ2Mprs4NzJRpZ2w1h'),
+(7, 'admin6', 'c4ca4238a0b923820dcc509a6f75849b', 'Trần Nhật Hoàng', 'hoang@gmail.com', 'Đà Nẵng', '3', 0, 0, '2022-05-17 111006', '0'),
+(8, 'admin7', 'c4ca4238a0b923820dcc509a6f75849b', 'Trần Nhật Hoàng', 'hoang@gmail.com', '1', '1', 0, 0, '2022-05-17 111038', '38AHbrMxU2%VHvXW%Le$oJPTzgOLQJDF%TFc&rvnMK$EZuCfT@quIKRqtVX4XzbBNMeo8Jt93ugg2YEGOWuDo6OKf^MFfwfPZ9wH55Tr^$@yTavu$ck34PUauy2^tYcvyZ3iS5OEvLfRE5mK$WM1e8;2;1'),
+(9, 'admin8', 'c4ca4238a0b923820dcc509a6f75849b', 'Trần Nhật Hoàng', 'hoang@gmail.com', '1', '1', 0, 0, '2022-05-17 111042', '38AHbrMxU2%VHvXW%Le$oJPTzgOLQJDF%TFc&rvnMK$EZuCfT@quIKRqtVX4XzbBNMeo8Jt93ugg2YEGOWuDo6OKf^MFfwfPZ9wH55Tr^$@yTavu$ck34PUauy2^tYcvyZ3iS5OEvLfRE5mK$WM1e8;2;1'),
+(10, 'admin9', 'c4ca4238a0b923820dcc509a6f75849b', 'Trần Nhật Hoàng', 'hoang@gmail.com', '1', '1', 0, 0, '2022-05-17 111045', '38AHbrMxU2%VHvXW%Le$oJPTzgOLQJDF%TFc&rvnMK$EZuCfT@quIKRqtVX4XzbBNMeo8Jt93ugg2YEGOWuDo6OKf^MFfwfPZ9wH55Tr^$@yTavu$ck34PUauy2^tYcvyZ3iS5OEvLfRE5mK$WM1e8;2;1'),
+(11, 'admin10', 'c4ca4238a0b923820dcc509a6f75849b', 'Trần Nhật Hoàng', 'hoang@gmail.com', '1', '1', 0, 0, '2022-05-17 111048', '38AHbrMxU2%VHvXW%Le$oJPTzgOLQJDF%TFc&rvnMK$EZuCfT@quIKRqtVX4XzbBNMeo8Jt93ugg2YEGOWuDo6OKf^MFfwfPZ9wH55Tr^$@yTavu$ck34PUauy2^tYcvyZ3iS5OEvLfRE5mK$WM1e8;2;1'),
+(12, 'admin11', 'c4ca4238a0b923820dcc509a6f75849b', 'Trần Nhật Hoàng', 'hoang@gmail.com', '1', '1', 0, 0, '2022-05-17 111053', '38AHbrMxU2%VHvXW%Le$oJPTzgOLQJDF%TFc&rvnMK$EZuCfT@quIKRqtVX4XzbBNMeo8Jt93ugg2YEGOWuDo6OKf^MFfwfPZ9wH55Tr^$@yTavu$ck34PUauy2^tYcvyZ3iS5OEvLfRE5mK$WM1e8;2;1');
 
 -- --------------------------------------------------------
 
@@ -80,28 +80,28 @@ CREATE TABLE `category` (
 --
 
 INSERT INTO `category` (`id`, `name`, `slug`, `status`, `create_at`, `update_at`, `status_delete`) VALUES
-(112, 'Quần Jean Nam', 'Quan-Jean-Nam', 'Hiển Thị', '2021-12-31 10:26:44', '0000-00-00 00:00:00', 1),
-(113, 'Áo Thun Nam', 'Ao-Thun-Nam', 'Hiển Thị', '2021-12-31 10:27:00', '0000-00-00 00:00:00', 0),
-(114, 'Áo Sơ Mi Nam', 'Ao-So-Mi-Nam', 'Hiển Thị', '2021-12-31 10:27:19', '0000-00-00 00:00:00', 0),
-(115, 'Quần KaKi Nam', 'Quan-KaKi-Nam', 'Hiển Thị', '2021-12-31 10:27:37', '0000-00-00 00:00:00', 0),
-(116, 'Quần Short', 'Quan-Short', 'Hiển Thị', '2021-12-31 10:28:08', '0000-00-00 00:00:00', 0),
-(117, 'Đồ Gia Đình', 'Do-Gia-Dinh', 'Hiển Thị', '2021-12-31 10:28:50', '0000-00-00 00:00:00', 0),
-(118, 'Áo Thun Nữ', 'Ao-Thun-Nu', 'Hiển Thị', '2021-12-31 10:30:17', '0000-00-00 00:00:00', 1),
-(119, 'Áo Sơ Mi Nữ', 'Ao-So-Mi-Nu', 'Hiển Thị', '2021-12-31 10:30:25', '0000-00-00 00:00:00', 0),
-(120, 'Đầm, Váy', 'Dam,-Vay', 'Hiển Thị', '2021-12-31 10:30:57', '0000-00-00 00:00:00', 0),
-(122, 'Đồ Thể Thao', 'Do-The-Thao', 'Hiển Thị', '2021-12-31 10:32:07', '0000-00-00 00:00:00', 0),
-(123, 'Áo Ấm', 'Ao-Am', 'Hiển Thị', '2021-12-31 10:34:27', '0000-00-00 00:00:00', 0),
-(124, 'Áo Khoác', 'Ao-Khoac', 'Hiển Thị', '2021-12-31 10:51:24', '0000-00-00 00:00:00', 0),
-(125, 'Áo Phông', 'Ao-Phong', 'Hiển Thị', '2021-12-31 11:06:57', '0000-00-00 00:00:00', 0),
-(126, 'Phước', 'Phuoc', 'Hiển Thị', '2022-01-20 09:35:49', '0000-00-00 00:00:00', 1),
-(127, 'TEST', 'TEST', 'Hiển Thị', '2022-01-20 09:37:08', '0000-00-00 00:00:00', 1),
-(128, 'áo đá banh', 'ao-da-banh', 'Hiển Thị', '2022-01-21 08:43:44', '0000-00-00 00:00:00', 1),
-(129, 'áo đá banh', 'ao-da-banh', 'Hiển Thị', '2022-01-21 08:43:46', '0000-00-00 00:00:00', 1),
-(130, 'áo đá banh', 'ao-da-banh', 'Hiển Thị', '2022-01-21 08:43:48', '0000-00-00 00:00:00', 1),
-(131, 'áo đá banh', 'ao-da-banh', 'Hiển Thị', '2022-01-21 08:43:51', '0000-00-00 00:00:00', 1),
-(132, 'Sharecode.vn', 'Sharecode-vn', 'Hiển Thị', '2022-01-22 14:43:50', '0000-00-00 00:00:00', 1),
-(138, 'Áo Thun Nam', 'ao-thun-nam', 'Hiển Thị', '2021-12-31 10:27:00', '0000-00-00 00:00:00', 0),
-(139, 'test', 'test', 'Hiển Thị', '2022-05-11 12:42:15', '0000-00-00 00:00:00', 1);
+(112, 'Quần Jean Nam', 'Quan-Jean-Nam', 'Hiển Thị', '2021-12-31 102644', '0000-00-00 000000', 1),
+(113, 'Áo Thun Nam', 'Ao-Thun-Nam', 'Hiển Thị', '2021-12-31 102700', '0000-00-00 000000', 0),
+(114, 'Áo Sơ Mi Nam', 'Ao-So-Mi-Nam', 'Hiển Thị', '2021-12-31 102719', '0000-00-00 000000', 0),
+(115, 'Quần KaKi Nam', 'Quan-KaKi-Nam', 'Hiển Thị', '2021-12-31 102737', '0000-00-00 000000', 0),
+(116, 'Quần Short', 'Quan-Short', 'Hiển Thị', '2021-12-31 102808', '0000-00-00 000000', 0),
+(117, 'Đồ Gia Đình', 'Do-Gia-Dinh', 'Hiển Thị', '2021-12-31 102850', '0000-00-00 000000', 0),
+(118, 'Áo Thun Nữ', 'Ao-Thun-Nu', 'Hiển Thị', '2021-12-31 103017', '0000-00-00 000000', 1),
+(119, 'Áo Sơ Mi Nữ', 'Ao-So-Mi-Nu', 'Hiển Thị', '2021-12-31 103025', '0000-00-00 000000', 0),
+(120, 'Đầm, Váy', 'Dam,-Vay', 'Hiển Thị', '2021-12-31 103057', '0000-00-00 000000', 0),
+(122, 'Đồ Thể Thao', 'Do-The-Thao', 'Hiển Thị', '2021-12-31 103207', '0000-00-00 000000', 0),
+(123, 'Áo Ấm', 'Ao-Am', 'Hiển Thị', '2021-12-31 103427', '0000-00-00 000000', 0),
+(124, 'Áo Khoác', 'Ao-Khoac', 'Hiển Thị', '2021-12-31 105124', '0000-00-00 000000', 0),
+(125, 'Áo Phông', 'Ao-Phong', 'Hiển Thị', '2021-12-31 110657', '0000-00-00 000000', 0),
+(126, 'Phước', 'Phuoc', 'Hiển Thị', '2022-01-20 093549', '0000-00-00 000000', 1),
+(127, 'TEST', 'TEST', 'Hiển Thị', '2022-01-20 093708', '0000-00-00 000000', 1),
+(128, 'áo đá banh', 'ao-da-banh', 'Hiển Thị', '2022-01-21 084344', '0000-00-00 000000', 1),
+(129, 'áo đá banh', 'ao-da-banh', 'Hiển Thị', '2022-01-21 084346', '0000-00-00 000000', 1),
+(130, 'áo đá banh', 'ao-da-banh', 'Hiển Thị', '2022-01-21 084348', '0000-00-00 000000', 1),
+(131, 'áo đá banh', 'ao-da-banh', 'Hiển Thị', '2022-01-21 084351', '0000-00-00 000000', 1),
+(132, 'Sharecode.vn', 'Sharecode-vn', 'Hiển Thị', '2022-01-22 144350', '0000-00-00 000000', 1),
+(138, 'Áo Thun Nam', 'ao-thun-nam', 'Hiển Thị', '2021-12-31 102700', '0000-00-00 000000', 0),
+(139, 'test', 'test', 'Hiển Thị', '2022-05-11 124215', '0000-00-00 000000', 1);
 
 -- --------------------------------------------------------
 
@@ -123,7 +123,7 @@ CREATE TABLE `comment_product` (
 
 INSERT INTO `comment_product` (`id`, `id_product`, `id_user`, `name_user`, `content`) VALUES
 (14, 50, 34, 'Lê Hữu Phước', 'đẹp'),
-(15, 50, 39, 'Lê Hữu Phước', 'xinh xắn\n'),
+(15, 50, 39, 'Lê Hữu Phước', 'xinh xắnn'),
 (16, 51, 40, 'Thủy Tiên', 'xinh quá');
 
 -- --------------------------------------------------------
@@ -176,99 +176,101 @@ CREATE TABLE `order_product` (
 -- Đang đổ dữ liệu cho bảng `order_product`
 --
 
-INSERT INTO `order_product` (`id`, `user_id`, `create_at`, `name`, `address`, `phone_number`, `status`, `total_mony`, `status_recieve`, `cancel_order`, `delete_order`, `id_personnel`) VALUES
-(119, 34, '2022-05-20 11:18:45', 'Nguyễn Ngọc Thanh Thảo', 'quảng nam', '23', 'Đã Nhận Hàng', 178998.2, 'true', 0, 0, 2),
-(120, 34, '2022-06-20 11:24:16', 'Nguyễn Ngọc Thanh Thảo', 'quảng nam', '23', 'Đã Nhận Hàng', 88999.1, 'true', 0, 0, 1),
-(121, 34, '2022-05-21 09:17:45', 'Vân Nguyễn Thảo Linh', 'quảng nam', '23', 'Đã Nhận Hàng', 88999.1, 'true', 0, 0, 2),
-(122, 40, '2022-05-21 09:40:47', 'Vân Nguyễn Thảo Linh', '0845151117', 'Đã Nhận Hàng', 235000, 'true', 0, 0, 1);
+-- Đang đổ dữ liệu cho bảng `order_product`
+INSERT INTO `order_product` (`id`, `user_id`, `create_at`, `name`, `address`, `phone_number`, `status`, `total_mony`, `status_recieve`, `cancel_order`, `delete_order`, `id_personnel`)
+VALUES
+    (119, 34, '2022-05-20 111845', 'Trần Minh Thiện', 'quảng nam', '23', 'Đã Nhận Hàng', 178998.2, 'true', 0, 0, 2),
+    (120, 34, '2022-06-20 112416', 'Nguyễn Đăng Mãn', 'quảng nam', '23', 'Đã Nhận Hàng', 88999.1, 'true', 0, 0, 1),
+    (122, 34, '2022-05-21 091745', 'Vân Nguyễn Thảo Linh', 'quảng nam', '23', 'Đã Nhận Hàng', 88999.1, 'true', 0, 0, 2),
+    (121, 34, '2022-05-21 091745', 'Vân Nguyễn Thảo Linh', 'quảng nam', '23', 'Đã Nhận Hàng', 88999.1, 'true', 0, 0, 2);
 
 -- --------------------------------------------------------
 
---
 -- Cấu trúc bảng cho bảng `product`
---
-
 CREATE TABLE `product` (
-  `id` int(11) NOT NULL,
-  `name` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
   `price` double DEFAULT NULL,
   `img_product` varchar(255) NOT NULL,
   `quantity` int(11) DEFAULT NULL,
-  `descrip` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
-  `production_company` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
+  `descrip` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
+  `production_company` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
   `create_at` datetime DEFAULT NULL,
   `update_at` datetime DEFAULT NULL,
   `category_id` int(11) DEFAULT NULL,
   `name_category` varchar(255) NOT NULL,
   `pay` int(11) NOT NULL,
-  `sale_product` int(10) NOT NULL,
-  `status_delete` int(11) NOT NULL
+  `sale_product` int NOT NULL,  -- Bỏ phần (10) trong int
+  `status_delete` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
 
 --
 -- Đang đổ dữ liệu cho bảng `product`
 --
 
 INSERT INTO `product` (`id`, `name`, `price`, `img_product`, `quantity`, `descrip`, `production_company`, `create_at`, `update_at`, `category_id`, `name_category`, `pay`, `sale_product`, `status_delete`) VALUES
-(50, 'Áo gia đình', 50000, 'ao-gia-dinh-AG0554-2.jpg', 5, 'Đồ mặc gia đình thoáng mát', 'Công Ty TNHH PHUOCMG', '2021-12-31 10:38:00', '2022-01-01 00:31:55', 117, 'Đồ Gia Đình', 38, 20, 0),
-(51, 'Áo, váy gia đình', 59999, 'ao-vay-gia-dinh-ag0515-1m4G3-4UKwpv_simg_d0daf0_800x1200_max.jpg', 52, 'Đồ mặc gia đình thoáng mát', 'Công Ty TNHH PHUOCMG', '2021-12-31 10:40:01', '2022-01-01 00:32:09', 117, 'Đồ Gia Đình', 17, 10, 0),
-(52, 'Combo đầm, váy mẹ và bé', 99999, 'combo-dam-cap-me-va-be-1m4G3-hKwaQm_simg_d0daf0_800x1200_max.jpg', 19, 'Đồ mặc gia đình đẹp, thoáng mát', 'Công Ty TNHH PHUOCMG', '2021-12-31 10:43:36', '0000-00-00 00:00:00', 117, 'Đồ Gia Đình', 30, 10, 0),
-(53, 'Quần Jean Nam', 199999, '4.jpg', 49, 'Chất liệu vải tốt, đẹp thể hiện đẳng cấp đàn ông', 'Công Ty TNHH PHUOCMG', '2021-12-31 10:48:46', '0000-00-00 00:00:00', 112, 'Quần Jean Nam', 37, 15, 1),
-(55, 'Áo ấm nam lông cừu', 400000, 'ao-am-nam-long-cuu.jpg', 60, 'Áo khoác nam quân sự hàng xịn chuẩn quân đội', 'Công Ty TNHH PHUOCMG', '2021-12-31 11:01:07', '0000-00-00 00:00:00', 123, 'Áo Ấm', 10, 5, 0),
-(56, 'Áo Khoác nữ hoodie', 155000, 'ao-khoac-ni-hoodie.jpg', 60, 'Chất liệu vải mềm, rất ấm', 'Công Ty TNHH PHUOCMG', '2021-12-31 11:05:37', '0000-00-00 00:00:00', 124, 'Áo Khoác', 8, 20, 0),
-(57, 'Áo thun nữ', 35000, '1.jpg', 60, 'Chất liệu vải tốt, rộng thoáng mát', 'Công Ty TNHH PHUOCMG', '2021-12-31 22:09:34', '0000-00-00 00:00:00', 118, 'Áo Thun Nữ', 2, 25, 1),
-(58, 'Áo thun nữ', 39000, 'ao-thun-ao-phong-nu-eiffel-ca-tinh-msat28-1m4G3-LpJZdC_simg_d0daf0_800x1200_max.jpg', 60, 'Mặc rộng thoáng mát', 'Công Ty TNHH PHUOCMG', '2022-01-01 08:51:37', '0000-00-00 00:00:00', 118, 'Áo Thun Nữ', 15, 50, 1),
-(59, 'Áo thun nữ', 50000, 'ao-thu-ngua-mini-1m4G3-57c588_simg_d0daf0_800x1200_max.jpg', 50, 'Chống nắng', 'Công Ty TNHH PHUOCMG', '2022-01-02 09:15:42', '0000-00-00 00:00:00', 118, 'Áo Thun Nữ', 3, 10, 1),
-(61, 'Quần KaKi Nam', 50000, 'cu-cai-quan-kaki-thun-jogger-thoi-trang-mau-kem-qg06-1m4G3-7ec3c2_simg_d0daf0_800x1200_max.jpg', 50, 'đẹp', 'Công Ty TNHH PHUOCMG', '2022-01-02 10:52:52', '0000-00-00 00:00:00', 115, 'Quần KaKi Nam', 2, 50, 0),
-(63, 'Quần Jean Nam', 200000, 'quan-jean-nam1.png', 49, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG ', '2022-01-15 10:36:28', '0000-00-00 00:00:00', 112, 'Quần Jean Nam', 10, 10, 1),
-(64, 'Quần Jean Nam', 210000, 'quan-jean-nam2.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG ', '2022-01-15 10:37:07', '0000-00-00 00:00:00', 112, 'Quần Jean Nam', 0, 10, 1),
-(65, 'Quần Jean Nam', 250000, 'quan-jean-nam3.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG ', '2022-01-15 10:37:39', '0000-00-00 00:00:00', 112, 'Quần Jean Nam', 0, 10, 1),
-(66, 'Quần Jean Nam', 500000, 'quan-jean-nam5.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 19:51:44', '0000-00-00 00:00:00', 112, 'Quần Jean Nam', 1, 25, 1),
-(67, 'Áo Thun Nam', 60000, 'ao-thun-nam1.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 19:59:21', '0000-00-00 00:00:00', 113, 'Áo Thun Nam', 0, 10, 0),
-(68, 'Áo Thun Nam', 70000, 'ao-thun-nam2.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 19:59:51', '0000-00-00 00:00:00', 113, 'Áo Thun Nam', 0, 10, 0),
-(69, 'Áo Thun Nam', 80000, 'ao-thun-nam3.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 20:04:48', '0000-00-00 00:00:00', 113, 'Áo Thun Nam', 0, 10, 0),
-(70, 'Áo Thun Nam', 90000, 'ao-thun-nam4.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 20:04:58', '0000-00-00 00:00:00', 113, 'Áo Thun Nam', 0, 10, 0),
-(71, 'Áo Thun Nam', 50000, 'ao-thun-nam5.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 20:05:12', '0000-00-00 00:00:00', 113, 'Áo Thun Nam', 0, 10, 0),
-(72, 'Áo Thun Nam', 55000, 'ao-thun-nam6.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 20:05:37', '0000-00-00 00:00:00', 113, 'Áo Thun Nam', 0, 10, 0),
-(73, 'Áo Sơ Mi Nam', 55000, 'ao-so-mi-nam1.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 20:10:54', '0000-00-00 00:00:00', 114, 'Áo Sơ Mi Nam', 0, 10, 0),
-(74, 'Áo Sơ Mi Nam', 65000, 'ao-so-mi-nam2.jpeg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 20:11:08', '0000-00-00 00:00:00', 114, 'Áo Sơ Mi Nam', 1, 10, 0),
-(75, 'Áo Sơ Mi Nam', 75000, 'ao-so-mi-nam3.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 20:11:33', '0000-00-00 00:00:00', 114, 'Áo Sơ Mi Nam', 0, 10, 0),
-(76, 'Áo Sơ Mi Nam', 85000, 'ao-so-mi-nam4.jpeg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 20:11:51', '0000-00-00 00:00:00', 114, 'Áo Sơ Mi Nam', 0, 10, 0),
-(77, 'Áo Sơ Mi Nam', 95000, 'ao-so-mi-nam5.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 20:12:08', '0000-00-00 00:00:00', 114, 'Áo Sơ Mi Nam', 0, 10, 0),
-(78, 'Áo Sơ Mi Nam', 45000, 'ao-so-mi-nam-phong-cach-phoi-mau-1m4G3-BSZiod.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 20:12:30', '0000-00-00 00:00:00', 114, 'Áo Sơ Mi Nam', 0, 10, 0),
-(79, 'Quần KaKi Nam', 450000, 'quan-kaki-nam-lich-lam-1m4G3-NvjQo7_simg_d0daf0_800x1200_max.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 20:15:21', '0000-00-00 00:00:00', 115, 'Quần KaKi Nam', 0, 10, 0),
-(80, 'Quần KaKi Nam', 460000, 'quan-kaki-nam2.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 20:17:24', '0000-00-00 00:00:00', 115, 'Quần KaKi Nam', 1, 10, 0),
-(81, 'Quần KaKi Nam', 470000, 'quan-kaki-nam3.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 20:17:49', '0000-00-00 00:00:00', 115, 'Quần KaKi Nam', 0, 10, 0),
-(82, 'Quần KaKi Nam', 480000, 'quan-kaki-nam4.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 20:18:15', '0000-00-00 00:00:00', 115, 'Quần KaKi Nam', 0, 10, 0),
-(83, 'Quần Short', 52000, 'quan-short-nam1.jpeg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 20:19:42', '0000-00-00 00:00:00', 116, 'Quần Short', 0, 10, 0),
-(84, 'Quần Short', 62000, 'quan-short-nam2.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 20:20:11', '0000-00-00 00:00:00', 116, 'Quần Short', 0, 10, 0),
-(85, 'Quần Short', 72000, 'quan-short-nam3.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 20:20:32', '0000-00-00 00:00:00', 116, 'Quần Short', 0, 10, 0),
-(86, 'Quần Short', 82000, 'quan-short-nam4.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 20:20:47', '0000-00-00 00:00:00', 116, 'Quần Short', 0, 10, 0),
-(87, 'Quần Short', 92000, 'quan-short-nam5.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 20:21:00', '0000-00-00 00:00:00', 116, 'Quần Short', 0, 10, 0),
-(95, 'Áo Sơ Mi Nữ', 205000, 'ao-so-mi-nu-vien-co-hoa-31.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 20:32:49', '2022-01-16 20:34:41', 119, 'Áo Sơ Mi Nữ', 0, 10, 0),
-(96, 'Áo Sơ Mi Nữ', 215000, 'ao-so-mi-nu1.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 20:33:03', '2022-01-16 20:34:11', 119, 'Áo Sơ Mi Nữ', 0, 10, 0),
-(97, 'Áo Sơ Mi Nữ', 255000, 'ao-so-mi-nu4.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 20:33:39', '0000-00-00 00:00:00', 119, 'Áo Sơ Mi Nữ', 0, 10, 0),
-(98, 'Đồ Gia Đình', 59000, 'do-gia-dinh1.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 20:37:57', '0000-00-00 00:00:00', 117, 'Đồ Gia Đình', 0, 10, 0),
-(99, 'Đồ Gia Đình', 69000, 'do-gia-dinh1.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 20:38:06', '0000-00-00 00:00:00', 117, 'Đồ Gia Đình', 0, 10, 0),
-(100, 'Đồ Gia Đình', 79000, 'do-gia-dinh2.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 20:38:36', '0000-00-00 00:00:00', 117, 'Đồ Gia Đình', 0, 10, 0),
-(101, 'Áo Thun Nữ', 79000, 'ao-thun-nu1.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 20:39:06', '0000-00-00 00:00:00', 118, 'Áo Thun Nữ', 0, 10, 1),
-(102, 'Áo Thun Nữ', 89000, 'do-gia-dinh2.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 20:39:23', '0000-00-00 00:00:00', 118, 'Áo Thun Nữ', 0, 10, 1),
-(103, 'Áo Sơ Mi Nữ', 89000, 'ao-so-mi-nu1.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 20:40:11', '0000-00-00 00:00:00', 119, 'Áo Sơ Mi Nữ', 0, 10, 0),
-(104, 'Áo Sơ Mi Nữ', 99000, 'ao-so-mi-nu2.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 20:40:30', '0000-00-00 00:00:00', 119, 'Áo Sơ Mi Nữ', 0, 10, 0),
-(106, 'Váy', 199000, 'dam-vay-nu1.jpg', 60, 'Chất liệu vải đẹp', 'Công Ty TNHH PHUOCMG', '2022-01-16 21:02:44', '0000-00-00 00:00:00', 120, 'Đầm, Váy', 0, 10, 0),
-(107, 'Váy', 299999, 'dam-vay-nu2.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 21:04:20', '0000-00-00 00:00:00', 120, 'Đầm, Váy', 0, 10, 0),
-(108, 'Váy', 255000, 'dam-vay-nu1.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 21:06:48', '0000-00-00 00:00:00', 120, 'Đầm, Váy', 0, 10, 0),
-(109, 'Váy', 265000, 'dam-vay-nu3.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 21:07:02', '0000-00-00 00:00:00', 120, 'Đầm, Váy', 0, 10, 0),
-(110, 'Váy', 275000, 'dam-vay-nu4.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 21:09:24', '0000-00-00 00:00:00', 120, 'Đầm, Váy', 0, 10, 0),
-(111, 'Áo Len Nữ', 200000, 'ao-len-nu.jpg', 60, '11', 'Công Ty TNHH PHUOCMG', '2022-01-20 00:45:41', '0000-00-00 00:00:00', 125, 'Áo Phông', 1, 10, 0),
-(112, 'áo dài', 200000, 'conong.png', 60, '.ccc', 'Công Ty TNHH PHUOCMG', '2022-01-20 00:54:10', '2022-01-20 22:32:31', 113, 'Áo Thun Nam', 0, 10, 1),
-(113, 'TEST1', 200000, 'tien1.jpg', 60, 'kjkmmk', 'Công Ty TNHH PHUOCMG', '2022-01-20 09:38:38', '0000-00-00 00:00:00', 127, 'TEST', 0, 10, 1),
-(114, 'TEST2', 500000, 'tien2.jpg', 60, 'huhuhuhu', 'Công Ty TNHH PHUOCMG', '2022-01-20 10:32:12', '0000-00-00 00:00:00', 127, 'TEST', 0, 10, 1),
-(115, 'quần thun', 200000, '6.jpg', 60, 'èooe', 'phước', '2022-01-21 08:13:30', '0000-00-00 00:00:00', 125, 'Áo Phông', 0, 10, 1),
-(116, 'quần thun', 200000, 'h1.png', 60, 'ìeiejeije', 'Công Ty TNHH PHUOCMG', '2022-01-21 08:23:04', '0000-00-00 00:00:00', 125, 'Áo Phông', 0, 10, 1),
-(117, 'Quần Short', 500000, '5.jpg', 60, 'kk', 'Công Ty TNHH PHUOCMG', '2022-01-21 10:41:15', '0000-00-00 00:00:00', 1, '', 0, 10, 0),
-(118, 'Quần Short', 500000, '246824978_3013829235559521_1342044413971316351_n.jpg', 60, 'knknnk', 'Công Ty TNHH PHUOCMG', '2022-01-21 10:48:20', '0000-00-00 00:00:00', 1, '', 0, 1000, 1),
-(119, 'Sharecode.vn', 10000, 'login.png', 60, 'sharecode.vn', 'Công Ty TNHH PHUOCMG', '2022-01-22 14:44:45', '0000-00-00 00:00:00', 132, 'Sharecode.vn', 0, 10, 1);
+(50, 'Áo gia đình', 50000, 'ao-gia-dinh-AG0554-2.jpg', 5, 'Đồ mặc gia đình thoáng mát', 'Công Ty TNHH PHUOCMG', '2021-12-31 103800', '2022-01-01 003155', 117, 'Đồ Gia Đình', 38, 20, 0),
+(51, 'Áo, váy gia đình', 59999, 'ao-vay-gia-dinh-ag0515-1m4G3-4UKwpv_simg_d0daf0_800x1200_max.jpg', 52, 'Đồ mặc gia đình thoáng mát', 'Công Ty TNHH PHUOCMG', '2021-12-31 104001', '2022-01-01 003209', 117, 'Đồ Gia Đình', 17, 10, 0),
+(52, 'Combo đầm, váy mẹ và bé', 99999, 'combo-dam-cap-me-va-be-1m4G3-hKwaQm_simg_d0daf0_800x1200_max.jpg', 19, 'Đồ mặc gia đình đẹp, thoáng mát', 'Công Ty TNHH PHUOCMG', '2021-12-31 104336', '0000-00-00 000000', 117, 'Đồ Gia Đình', 30, 10, 0),
+(53, 'Quần Jean Nam', 199999, '4.jpg', 49, 'Chất liệu vải tốt, đẹp thể hiện đẳng cấp đàn ông', 'Công Ty TNHH PHUOCMG', '2021-12-31 104846', '0000-00-00 000000', 112, 'Quần Jean Nam', 37, 15, 1),
+(55, 'Áo ấm nam lông cừu', 400000, 'ao-am-nam-long-cuu.jpg', 60, 'Áo khoác nam quân sự hàng xịn chuẩn quân đội', 'Công Ty TNHH PHUOCMG', '2021-12-31 110107', '0000-00-00 000000', 123, 'Áo Ấm', 10, 5, 0),
+(56, 'Áo Khoác nữ hoodie', 155000, 'ao-khoac-ni-hoodie.jpg', 60, 'Chất liệu vải mềm, rất ấm', 'Công Ty TNHH PHUOCMG', '2021-12-31 110537', '0000-00-00 000000', 124, 'Áo Khoác', 8, 20, 0),
+(57, 'Áo thun nữ', 35000, '1.jpg', 60, 'Chất liệu vải tốt, rộng thoáng mát', 'Công Ty TNHH PHUOCMG', '2021-12-31 220934', '0000-00-00 000000', 118, 'Áo Thun Nữ', 2, 25, 1),
+(58, 'Áo thun nữ', 39000, 'ao-thun-ao-phong-nu-eiffel-ca-tinh-msat28-1m4G3-LpJZdC_simg_d0daf0_800x1200_max.jpg', 60, 'Mặc rộng thoáng mát', 'Công Ty TNHH PHUOCMG', '2022-01-01 085137', '0000-00-00 000000', 118, 'Áo Thun Nữ', 15, 50, 1),
+(59, 'Áo thun nữ', 50000, 'ao-thu-ngua-mini-1m4G3-57c588_simg_d0daf0_800x1200_max.jpg', 50, 'Chống nắng', 'Công Ty TNHH PHUOCMG', '2022-01-02 091542', '0000-00-00 000000', 118, 'Áo Thun Nữ', 3, 10, 1),
+(61, 'Quần KaKi Nam', 50000, 'cu-cai-quan-kaki-thun-jogger-thoi-trang-mau-kem-qg06-1m4G3-7ec3c2_simg_d0daf0_800x1200_max.jpg', 50, 'đẹp', 'Công Ty TNHH PHUOCMG', '2022-01-02 105252', '0000-00-00 000000', 115, 'Quần KaKi Nam', 2, 50, 0),
+(63, 'Quần Jean Nam', 200000, 'quan-jean-nam1.png', 49, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG ', '2022-01-15 103628', '0000-00-00 000000', 112, 'Quần Jean Nam', 10, 10, 1),
+(64, 'Quần Jean Nam', 210000, 'quan-jean-nam2.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG ', '2022-01-15 103707', '0000-00-00 000000', 112, 'Quần Jean Nam', 0, 10, 1),
+(65, 'Quần Jean Nam', 250000, 'quan-jean-nam3.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG ', '2022-01-15 103739', '0000-00-00 000000', 112, 'Quần Jean Nam', 0, 10, 1),
+(66, 'Quần Jean Nam', 500000, 'quan-jean-nam5.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 195144', '0000-00-00 000000', 112, 'Quần Jean Nam', 1, 25, 1),
+(67, 'Áo Thun Nam', 60000, 'ao-thun-nam1.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 195921', '0000-00-00 000000', 113, 'Áo Thun Nam', 0, 10, 0),
+(68, 'Áo Thun Nam', 70000, 'ao-thun-nam2.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 195951', '0000-00-00 000000', 113, 'Áo Thun Nam', 0, 10, 0),
+(69, 'Áo Thun Nam', 80000, 'ao-thun-nam3.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 200448', '0000-00-00 000000', 113, 'Áo Thun Nam', 0, 10, 0),
+(70, 'Áo Thun Nam', 90000, 'ao-thun-nam4.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 200458', '0000-00-00 000000', 113, 'Áo Thun Nam', 0, 10, 0),
+(71, 'Áo Thun Nam', 50000, 'ao-thun-nam5.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 200512', '0000-00-00 000000', 113, 'Áo Thun Nam', 0, 10, 0),
+(72, 'Áo Thun Nam', 55000, 'ao-thun-nam6.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 200537', '0000-00-00 000000', 113, 'Áo Thun Nam', 0, 10, 0),
+(73, 'Áo Sơ Mi Nam', 55000, 'ao-so-mi-nam1.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 201054', '0000-00-00 000000', 114, 'Áo Sơ Mi Nam', 0, 10, 0),
+(74, 'Áo Sơ Mi Nam', 65000, 'ao-so-mi-nam2.jpeg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 201108', '0000-00-00 000000', 114, 'Áo Sơ Mi Nam', 1, 10, 0),
+(75, 'Áo Sơ Mi Nam', 75000, 'ao-so-mi-nam3.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 201133', '0000-00-00 000000', 114, 'Áo Sơ Mi Nam', 0, 10, 0),
+(76, 'Áo Sơ Mi Nam', 85000, 'ao-so-mi-nam4.jpeg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 201151', '0000-00-00 000000', 114, 'Áo Sơ Mi Nam', 0, 10, 0),
+(77, 'Áo Sơ Mi Nam', 95000, 'ao-so-mi-nam5.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 201208', '0000-00-00 000000', 114, 'Áo Sơ Mi Nam', 0, 10, 0),
+(78, 'Áo Sơ Mi Nam', 45000, 'ao-so-mi-nam-phong-cach-phoi-mau-1m4G3-BSZiod.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 201230', '0000-00-00 000000', 114, 'Áo Sơ Mi Nam', 0, 10, 0),
+(79, 'Quần KaKi Nam', 450000, 'quan-kaki-nam-lich-lam-1m4G3-NvjQo7_simg_d0daf0_800x1200_max.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 201521', '0000-00-00 000000', 115, 'Quần KaKi Nam', 0, 10, 0),
+(80, 'Quần KaKi Nam', 460000, 'quan-kaki-nam2.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 201724', '0000-00-00 000000', 115, 'Quần KaKi Nam', 1, 10, 0),
+(81, 'Quần KaKi Nam', 470000, 'quan-kaki-nam3.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 201749', '0000-00-00 000000', 115, 'Quần KaKi Nam', 0, 10, 0),
+(82, 'Quần KaKi Nam', 480000, 'quan-kaki-nam4.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 201815', '0000-00-00 000000', 115, 'Quần KaKi Nam', 0, 10, 0),
+(83, 'Quần Short', 52000, 'quan-short-nam1.jpeg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 201942', '0000-00-00 000000', 116, 'Quần Short', 0, 10, 0),
+(84, 'Quần Short', 62000, 'quan-short-nam2.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 202011', '0000-00-00 000000', 116, 'Quần Short', 0, 10, 0),
+(85, 'Quần Short', 72000, 'quan-short-nam3.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 202032', '0000-00-00 000000', 116, 'Quần Short', 0, 10, 0),
+(86, 'Quần Short', 82000, 'quan-short-nam4.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 202047', '0000-00-00 000000', 116, 'Quần Short', 0, 10, 0),
+(87, 'Quần Short', 92000, 'quan-short-nam5.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 202100', '0000-00-00 000000', 116, 'Quần Short', 0, 10, 0),
+(95, 'Áo Sơ Mi Nữ', 205000, 'ao-so-mi-nu-vien-co-hoa-31.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 203249', '2022-01-16 203441', 119, 'Áo Sơ Mi Nữ', 0, 10, 0),
+(96, 'Áo Sơ Mi Nữ', 215000, 'ao-so-mi-nu1.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 203303', '2022-01-16 203411', 119, 'Áo Sơ Mi Nữ', 0, 10, 0),
+(97, 'Áo Sơ Mi Nữ', 255000, 'ao-so-mi-nu4.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 203339', '0000-00-00 000000', 119, 'Áo Sơ Mi Nữ', 0, 10, 0),
+(98, 'Đồ Gia Đình', 59000, 'do-gia-dinh1.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 203757', '0000-00-00 000000', 117, 'Đồ Gia Đình', 0, 10, 0),
+(99, 'Đồ Gia Đình', 69000, 'do-gia-dinh1.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 203806', '0000-00-00 000000', 117, 'Đồ Gia Đình', 0, 10, 0),
+(100, 'Đồ Gia Đình', 79000, 'do-gia-dinh2.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 203836', '0000-00-00 000000', 117, 'Đồ Gia Đình', 0, 10, 0),
+(101, 'Áo Thun Nữ', 79000, 'ao-thun-nu1.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 203906', '0000-00-00 000000', 118, 'Áo Thun Nữ', 0, 10, 1),
+(102, 'Áo Thun Nữ', 89000, 'do-gia-dinh2.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 203923', '0000-00-00 000000', 118, 'Áo Thun Nữ', 0, 10, 1),
+(103, 'Áo Sơ Mi Nữ', 89000, 'ao-so-mi-nu1.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 204011', '0000-00-00 000000', 119, 'Áo Sơ Mi Nữ', 0, 10, 0),
+(104, 'Áo Sơ Mi Nữ', 99000, 'ao-so-mi-nu2.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 204030', '0000-00-00 000000', 119, 'Áo Sơ Mi Nữ', 0, 10, 0),
+(106, 'Váy', 199000, 'dam-vay-nu1.jpg', 60, 'Chất liệu vải đẹp', 'Công Ty TNHH PHUOCMG', '2022-01-16 210244', '0000-00-00 000000', 120, 'Đầm, Váy', 0, 10, 0),
+(107, 'Váy', 299999, 'dam-vay-nu2.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 210420', '0000-00-00 000000', 120, 'Đầm, Váy', 0, 10, 0),
+(108, 'Váy', 255000, 'dam-vay-nu1.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 210648', '0000-00-00 000000', 120, 'Đầm, Váy', 0, 10, 0),
+(109, 'Váy', 265000, 'dam-vay-nu3.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 210702', '0000-00-00 000000', 120, 'Đầm, Váy', 0, 10, 0),
+(110, 'Váy', 275000, 'dam-vay-nu4.jpg', 60, 'Chất liệu vải tốt', 'Công Ty TNHH PHUOCMG', '2022-01-16 210924', '0000-00-00 000000', 120, 'Đầm, Váy', 0, 10, 0),
+(111, 'Áo Len Nữ', 200000, 'ao-len-nu.jpg', 60, '11', 'Công Ty TNHH PHUOCMG', '2022-01-20 004541', '0000-00-00 000000', 125, 'Áo Phông', 1, 10, 0),
+(112, 'áo dài', 200000, 'conong.png', 60, '.ccc', 'Công Ty TNHH PHUOCMG', '2022-01-20 005410', '2022-01-20 223231', 113, 'Áo Thun Nam', 0, 10, 1),
+(113, 'TEST1', 200000, 'tien1.jpg', 60, 'kjkmmk', 'Công Ty TNHH PHUOCMG', '2022-01-20 093838', '0000-00-00 000000', 127, 'TEST', 0, 10, 1),
+(114, 'TEST2', 500000, 'tien2.jpg', 60, 'huhuhuhu', 'Công Ty TNHH PHUOCMG', '2022-01-20 103212', '0000-00-00 000000', 127, 'TEST', 0, 10, 1),
+(115, 'quần thun', 200000, '6.jpg', 60, 'èooe', 'phước', '2022-01-21 081330', '0000-00-00 000000', 125, 'Áo Phông', 0, 10, 1),
+(116, 'quần thun', 200000, 'h1.png', 60, 'ìeiejeije', 'Công Ty TNHH PHUOCMG', '2022-01-21 082304', '0000-00-00 000000', 125, 'Áo Phông', 0, 10, 1),
+(117, 'Quần Short', 500000, '5.jpg', 60, 'kk', 'Công Ty TNHH PHUOCMG', '2022-01-21 104115', '0000-00-00 000000', 1, '', 0, 10, 0),
+(118, 'Quần Short', 500000, '246824978_3013829235559521_1342044413971316351_n.jpg', 60, 'knknnk', 'Công Ty TNHH PHUOCMG', '2022-01-21 104820', '0000-00-00 000000', 1, '', 0, 1000, 1),
+(119, 'Sharecode.vn', 10000, 'login.png', 60, 'sharecode.vn', 'Công Ty TNHH PHUOCMG', '2022-01-22 144445', '0000-00-00 000000', 132, 'Sharecode.vn', 0, 10, 1);
 
 -- --------------------------------------------------------
 
@@ -290,8 +292,8 @@ CREATE TABLE `slider` (
 --
 
 INSERT INTO `slider` (`id`, `name_slider`, `slider_img`, `create_at`, `update_at`, `status`) VALUES
-(12, '1', '1.jpg', '2021-12-29 15:33:22', '0000-00-00 00:00:00', 'Hiển Thị'),
-(13, '2', '2.jpg', '2021-12-29 15:33:33', '0000-00-00 00:00:00', 'Hiển Thị');
+(12, '1', '1.jpg', '2021-12-29 153322', '0000-00-00 000000', 'Hiển Thị'),
+(13, '2', '2.jpg', '2021-12-29 153333', '0000-00-00 000000', 'Hiển Thị');
 
 -- --------------------------------------------------------
 
@@ -316,19 +318,19 @@ CREATE TABLE `user_account` (
 --
 
 INSERT INTO `user_account` (`id`, `name`, `email_account`, `pass_word`, `phone_number`, `address_user`, `create_at`, `update_at`, `active_status`) VALUES
-(28, 'Vân Nguyễn Thảo Linh', 'thaolinh1@gmail.com', 'c4ca4238a0b923820dcc509a6f75849b', '123', 'Đà Nẵng', '2022-01-22 14:40:08', '0000-00-00 00:00:00', 'Hoạt Động'),
-(29, 'Vân Nguyễn Thảo Linh', 'thaolinh11@gmail.com', 'c4ca4238a0b923820dcc509a6f75849b', '123', '123', '2022-01-22 14:41:00', '0000-00-00 00:00:00', 'Hoạt Động'),
-(30, 'Vân Nguyễn Thảo Linh', 'thaolinh2@gmail.com', 'c4ca4238a0b923820dcc509a6f75849b', '123456', 'Đà Nẵng', '2022-03-05 11:47:04', '0000-00-00 00:00:00', 'Hoạt Động'),
-(31, 'Vân Nguyễn Thảo Linh', 'thaolinh0201@gmail.comr@gmail.comr', 'c4ca4238a0b923820dcc509a6f75849b', '0212121111', 'Đà Nẵng', '2022-05-11 12:40:12', '0000-00-00 00:00:00', 'Hoạt Động'),
-(32, 'Vân Nguyễn Thảo Linh', 'nguyenlinhn@gmail.com', 'c4ca4238a0b923820dcc509a6f75849b', '1', '1', '2022-05-11 12:41:09', '0000-00-00 00:00:00', 'Hoạt Động'),
-(33, 'Vân Nguyễn Thảo Linh', 'test@gmail.com', 'c4ca4238a0b923820dcc509a6f75849b', '0845151117', 'Đà Nẵng', '2022-05-15 16:11:08', '0000-00-00 00:00:00', 'Hoạt Động'),
-(34, 'Vân Nguyễn Thảo Linh', 'nguyenlinhn0201@gmail.com', 'c4ca4238a0b923820dcc509a6f75849b', '23', 'Đà Nẵng', '2022-05-16 19:55:43', '0000-00-00 00:00:00', 'Hoạt Động'),
-(35, 'Man', '5@gmail.com', 'c4ca4238a0b923820dcc509a6f75849b', '0', '0', '2022-05-16 21:09:38', '0000-00-00 00:00:00', 'Hoạt Động'),
-(36, 'Nguyen Dang Man', '1@gmail.com', 'c4ca4238a0b923820dcc509a6f75849b', '1', '1', '2022-05-17 10:57:59', '0000-00-00 00:00:00', 'Hoạt Động'),
-(37, 'Nguyen Dang Man', '2@gmail.com', 'c4ca4238a0b923820dcc509a6f75849b', '1', '1', '2022-05-17 10:58:14', '0000-00-00 00:00:00', 'Hoạt Động'),
-(38, 'Nguyen Dang Man', '3@gmail.com', 'c4ca4238a0b923820dcc509a6f75849b', '1', '1', '2022-05-17 10:58:29', '0000-00-00 00:00:00', 'Hoạt Động'),
-(39, 'Nguyen Dang Man', 'man@gmail.com', 'c4ca4238a0b923820dcc509a6f75849b', '0111111111', 'Đà Nẵng', '2022-05-21 09:34:58', '0000-00-00 00:00:00', 'Hoạt Động'),
-(40, 'Nguyen Dang Man', 'man@gmail.com', '202cb962ac59075b964b07152d234b70', '0111111111', 'Đà Nẵng', '2022-05-21 09:39:58', '0000-00-00 00:00:00', 'Block');
+(28, 'Vân Nguyễn Thảo Linh', 'thaolinh1@gmail.com', 'c4ca4238a0b923820dcc509a6f75849b', '123', 'Đà Nẵng', '2022-01-22 144008', '0000-00-00 000000', 'Hoạt Động'),
+(29, 'Vân Nguyễn Thảo Linh', 'thaolinh11@gmail.com', 'c4ca4238a0b923820dcc509a6f75849b', '123', '123', '2022-01-22 144100', '0000-00-00 000000', 'Hoạt Động'),
+(30, 'Vân Nguyễn Thảo Linh', 'thaolinh2@gmail.com', 'c4ca4238a0b923820dcc509a6f75849b', '123456', 'Đà Nẵng', '2022-03-05 114704', '0000-00-00 000000', 'Hoạt Động'),
+(31, 'Vân Nguyễn Thảo Linh', 'thaolinh0201@gmail.comr@gmail.comr', 'c4ca4238a0b923820dcc509a6f75849b', '0212121111', 'Đà Nẵng', '2022-05-11 124012', '0000-00-00 000000', 'Hoạt Động'),
+(32, 'Vân Nguyễn Thảo Linh', 'nguyenlinhn@gmail.com', 'c4ca4238a0b923820dcc509a6f75849b', '1', '1', '2022-05-11 124109', '0000-00-00 000000', 'Hoạt Động'),
+(33, 'Vân Nguyễn Thảo Linh', 'test@gmail.com', 'c4ca4238a0b923820dcc509a6f75849b', '0845151117', 'Đà Nẵng', '2022-05-15 161108', '0000-00-00 000000', 'Hoạt Động'),
+(34, 'Vân Nguyễn Thảo Linh', 'nguyenlinhn0201@gmail.com', 'c4ca4238a0b923820dcc509a6f75849b', '23', 'Đà Nẵng', '2022-05-16 195543', '0000-00-00 000000', 'Hoạt Động'),
+(35, 'Man', '5@gmail.com', 'c4ca4238a0b923820dcc509a6f75849b', '0', '0', '2022-05-16 210938', '0000-00-00 000000', 'Hoạt Động'),
+(36, 'Nguyen Dang Man', '1@gmail.com', 'c4ca4238a0b923820dcc509a6f75849b', '1', '1', '2022-05-17 105759', '0000-00-00 000000', 'Hoạt Động'),
+(37, 'Nguyen Dang Man', '2@gmail.com', 'c4ca4238a0b923820dcc509a6f75849b', '1', '1', '2022-05-17 105814', '0000-00-00 000000', 'Hoạt Động'),
+(38, 'Nguyen Dang Man', '3@gmail.com', 'c4ca4238a0b923820dcc509a6f75849b', '1', '1', '2022-05-17 105829', '0000-00-00 000000', 'Hoạt Động'),
+(39, 'Nguyen Dang Man', 'man@gmail.com', 'c4ca4238a0b923820dcc509a6f75849b', '0111111111', 'Đà Nẵng', '2022-05-21 093458', '0000-00-00 000000', 'Hoạt Động'),
+(40, 'Nguyen Dang Man', 'man@gmail.com', '202cb962ac59075b964b07152d234b70', '0111111111', 'Đà Nẵng', '2022-05-21 093958', '0000-00-00 000000', 'Block');
 
 --
 -- Chỉ mục cho các bảng đã đổ
@@ -370,8 +372,8 @@ ALTER TABLE `order_product`
 --
 -- Chỉ mục cho bảng `product`
 --
-ALTER TABLE `product`
-  ADD PRIMARY KEY (`id`);
+ALTER TABLE product
+  MODIFY id int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=120;
 
 --
 -- Chỉ mục cho bảng `slider`
@@ -449,6 +451,6 @@ ALTER TABLE `order_product`
   ADD CONSTRAINT `order_product_ibfk_1` FOREIGN KEY (`id_personnel`) REFERENCES `admin_account` (`id`);
 COMMIT;
 
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT ;
+!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS ;
+!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION ;
